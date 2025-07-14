@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: shivam201720/https-aajseshivampriyhindike.netlify.app
+  name: git-gateway
   branch: main
 
 media_folder: "IMG"
@@ -14,15 +13,4 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "शीर्षक", name: "title", widget: "string" }
-      - { label: "दिनांक", name: "date", widget: "datetime" }
-      - { label: "कविता / लेख", name: "body", widget: "markdown" }
-
-  - name: "sampark"
-    label: "संपर्क"
-    folder: "sampark"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "नाम", name: "name", widget: "string" }
-      - { label: "ईमेल", name: "email", widget: "string" }
-      - { label: "संदेश", name: "message", widget: "text" }
+      - { label: "कविता या विचार", name: "body", widget: "markdown" }
