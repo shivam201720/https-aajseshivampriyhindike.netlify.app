@@ -12,5 +12,9 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "शीर्षक", name: "title", widget: "string" }
-      - { label: "कविता या विचार", name: "body", widget: "markdown" }
+      - label: "शीर्षक"
+        name: "title"
+        widget: "string"
+      - label: "कविता या विचार"
+        name: "body"
+        widget: "markdown"
