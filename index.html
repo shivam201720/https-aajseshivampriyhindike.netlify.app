@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="P4tL-2aSmwuC6n15M1Efc355FEqB9EyqPuVawSAUmIg" />
   <title>आज से शिवम् प्रिय हिंदी के</title>
   <style>
     body {
@@ -32,31 +31,64 @@
       line-height: 1.8em;
       text-align: justify;
     }
+    section {
+      margin: 40px auto;
+      padding: 20px;
+      max-width: 800px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    h2 {
+      color: #2e3b4e;
+    }
     footer {
       margin-top: 40px;
       padding: 10px;
       font-size: 0.9em;
       color: #999;
     }
+    .cms-link {
+      margin-top: 30px;
+    }
   </style>
 </head>
 <body>
 
   <div class="hero">
-    <img src="IMG-20250420-WA0000.jpg" alt="Shivam Priy Photo" />
+    <img src="shivam_photo.jpg" alt="Shivam Priy Photo">
     <div class="caption">
-      <strong>घीसू की आत्मा मरी नहीं है... वह मेरे भीतर बस गई है।</strong><br><br>
-      बोलिए, क्या यह सच नहीं है? वही नकारात्मकता, वही आलू खाने की अधीरता... लेकिन आलू उगाने के लिए न तो उसे बोने का मन है, न ही पानी देने का प्रयास मुझमें है।<br><br>
-      लोग पूछते हैं कि घर क्यों नहीं छोड़ता? मैं मुस्कराता हूं और कहता हूं — आप गलत समझ रहे हैं। नौकरी पाना कठिन नहीं, निभाना कठिन है।<br><br>
-      आप ही सोचिए — क्या घीसू कभी काम पर जाता था? लेकिन मैं उतना भाग्यशाली नहीं हूं; एक दिन मुझे घर से निकाल दिया जाएगा। फिर भी मैं जीना चाहता हूं, ठीक घीसू की तरह।<br><br>
-      आप पूछेंगे — "कब तक?" तो सुनिए — जब तक घर वाले मेरा दाना-पानी बंद न कर दें... तब तक मैं जी रहा हूं और लिख रहा हूं।<br><br>
-      अगर आपके पास कुछ समय हो, तो दो-चार पंक्तियां पढ़ लीजिए — शायद कुछ ऐसा लिखता हूं, जो आपको छू जाए...
+      घीसू की आत्मा मरी नहीं है... वह मेरे भीतर बस गई है।
+      <br><br> बोलिए, क्या यह सच नहीं है? वही नकारात्मकता, वही आलू खाने की अधीरता... लेकिन आलू उगाने के लिए न तो उसे बोने का मन है, न ही पानी देने का प्रयास मुझमें है।
+      <br><br> लोग पूछते हैं कि घर क्यों नहीं छोड़ता? मैं मुस्कराता हूं और कहता हूं — आप गलत समझ रहे हैं। नौकरी पाना कठिन नहीं, निभाना कठिन है।
+      <br><br> आप ही सोचिए — क्या घीसू कभी काम पर जाता था? लेकिन मैं उतना भाग्यशाली नहीं हूं; एक दिन मुझे घर से निकाल दिया जाएगा। फिर भी मैं जीना चाहता हूं, ठीक घीसू की तरह।
+      <br><br> आप पूछें — "कब तक?" तो सुनिए — जब तक घर वाले मेरा दाना-पानी बंद न कर दें... तब तक मैं जी रहा हूं और लिख रहा हूं।
+      <br><br> अगर आपके पास कुछ समय हो, तो दो-चार पंक्तियां पढ़ लीजिए — शायद कुछ ऐसा लिखता हूं, जो आपको छू जाए...
     </div>
+  </div>
+
+  <section id="udgaar">
+    <h2>उद्गार</h2>
+    <div id="poetry-container">
+      <!-- कविताएँ यहाँ Netlify CMS से आएंगी -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>संपर्क</h2>
+    <p>Shivam Yadav<br>
+    Dhakulahiya, Ambedkar Nagar, Uttar Pradesh<br>
+    Email: shivamyadavjlp9@gmail.com</p>
+  </section>
+
+  <div class="cms-link">
+    <a href="/admin" target="_blank">✍️ उद्गार लिखें (Admin Panel)</a>
   </div>
 
   <footer>
     © 2025 aajseshivampriyhindike.com | हिंदी का एक छोटा प्रयास
   </footer>
 
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 </body>
 </html>
